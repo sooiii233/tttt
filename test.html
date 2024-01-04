@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="bg-dark">
+    <h1 class="bg-info text-success text-center">KEC</h1>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About us
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Programmes</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Accreditation</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">Vision Mission & Quality Policy</a></li>
+            <li><a href="#">Governing Council</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programmes
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Departments</a></li>
+              <li><a href="#">Accreditation</a></li>
+              <li><a href="#">UG</a></li>
+              <li><a href="#">PG</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Departments
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Engineering</a></li>
+              <li><a href="#">Management studies</a></li>
+              <li><a href="#">Computer application</a></li>
+              <li><a href="#">Science humanities</a></li>
+            </ul>
+            <li class="navbar-nav"><a href="#">Library</a></li>
+            <li class="navbar-nav"><a href="#">Facilities</a></li>
+            <li class="navbar-nav"><a href="#">Academic</a></li>
+            <li class="navbar-nav"><a href="#">COE</a></li>
+            <li class="navbar-nav"><a href="#">R&D</a></li>
+            <li class="navbar-nav"><a href="#">IEF</a></li>
+            <li class="navbar-nav"><a href="#">Placement</a></li>
+          </li>
+      </ul>
+      </div>
+</div>
+<br>
+<div class="container">  
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="https://www.kongu.ac.in/carousel/images/kvitt.jpg" alt="kvitt" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="https://www.kongu.ac.in/carousel/images/awards.jpg" alt="awards" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="https://www.kongu.ac.in/carousel/images/ariia_2022.jpg" alt="arriia" style="width:100%;">
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+  <div class="container-fluid">
+  <div class="col-md-4">
+    <a href="placement.php" style="text-decoration:none;" >
+        <div class="box">
+                <div class="icon"> <img src="data:image/jpeg;base64,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"style="width:80%;">> </div>
+                <h4>Placement</h4>
+        </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+    <a href="ranking.php" style="text-decoration:none;">
+        <div class="box">
+             <div class="icon"> <img src="https://images.unsplash.com/flagged/photo-1578928534298-9747fc52ec97?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFua2luZ3xlbnwwfHwwfHx8MA%3D%3D"style="width:80%;">> </div>
+                <h4>Ranking</h4>
+            </div>
+    </a>
+    </div>
+
+
+    <div class="col-md-4">
+    <a href="achievements.php" style="text-decoration:none;">
+        <div class="box">
+                <div class="icon"> <img src="https://png.pngtree.com/thumb_back/fh260/background/20230705/pngtree-golden-achievement-unlocked-celebrating-your-success-on-a-blue-3d-background-image_3808269.jpg"style="width:80%;"> </div>
+                <h4>Achievements</h4>
+        </div>
+    </a>
+</div>
+</div>
+</div><ul class="pager">
+    <li class="previous"><a href="#"><<</a></li>
+    <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li class="active"><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+    <li class="next"><a href="#">>></a></li>
+  </ul>
+
+</div>
+
+</body>
+</html>
